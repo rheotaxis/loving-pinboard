@@ -1,0 +1,38 @@
+<html>
+
+    <head>
+        <title>del.icio.us via JSON</title>
+    
+        <script type="text/javascript"
+            src="http://del.icio.us/feeds/json/deusx"></script>
+ 
+        <script type="text/javascript">
+            function init() {
+                var out = '';
+
+                out += '<ul>';
+                for (var i=0; i<Delicious.posts.length; i++) {
+                    var post = Delicious.posts[i];
+                    out += '<li>';
+                    out += '<a href="'+post.u+'">'+post.d+'</a>';
+                    if (post.n) out += '<p>'+post.n+'</p>';
+                    out += '</li>';
+                }
+                out += '</ul>';
+                
+                document.getElementById('links').innerHTML = out;
+            }
+            window.onload = init;
+        </script>
+
+    </head>
+    
+    <body>
+        <h1>del.icio.us links</h1>
+        <div id="links">
+            Loading links...
+        </div>
+    </body>
+
+</html>
+

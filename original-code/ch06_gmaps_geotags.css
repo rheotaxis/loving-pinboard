@@ -1,0 +1,21 @@
+body, div, td, li {
+    font: 12px arial;
+}
+#map {
+    width: 500px; 
+    height: 200px;
+    border: 2px solid #000;
+}
+.note {
+    width: 25ex;
+}
+ul#legend {
+    list-style: none;
+}
+ul#legend li {
+    clear: both;
+}
+ul#legend li img {
+    float: left;
+    padding-right: 2ex;
+}

@@ -1,0 +1,46 @@
+body, div, span, p, li { font: 12px arial; }
+ul.delPosts { margin: 2ex; }
+
+li.delPost {
+	list-style: none;
+	clear: both;
+	margin: 2em;
+	margin-bottom: 2em;
+	padding-bottom: 2em;
+}
+
+span.delTime {
+	float: right;
+	font-style: italic;
+	font-size: x-small;
+}
+
+a.delLink {
+	display: block;
+	font-weight: bold;
+	margin-left: -2em;
+	padding-bottom: 0.5em;
+}
+
+ul.delTags {
+	list-style: none;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	padding-top: 0.5em;
+}
+
+li.delTag {
+	font-size: x-small;
+	float: left;
+	width: 15ex;
+	margin: 0.25em;
+	padding: 0.25em;
+	border: 1px solid #ccc;
+	background-color: #f0f0f0;
+}
+
+li.delTag a {
+	display: block;
+	width: 100%;
+}

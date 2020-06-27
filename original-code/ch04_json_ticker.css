@@ -1,0 +1,21 @@
+body {
+    font: 18px arial;
+    margin: 1em;
+    padding: 1em;
+}
+#ticker {
+    background-color: #fff;
+    width: 45em;
+    height: 5.5em;
+    border: 1px solid;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#tickerContent {
+    background-color: #eee;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    position: relative;
+}

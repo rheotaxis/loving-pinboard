@@ -1,0 +1,28 @@
+<html>
+  <!--
+	ch08_post_browser.html
+
+	Bare-bones HTML to play host ot the browser JavaSciprt.
+
+   -->
+  <head>
+    <title>del.icio.us mini-browser</title>
+    <!-- http://www.mochikit.com/ -->
+    <script src="MochiKit/MochiKit.js" type="text/javascript"></script>
+    <script src="ch08_post_browser.js" type="text/javascript"></script>
+    <link href="ch08_post_styles.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <form id="main">
+	<select id="date_selector">
+	  <option value="">No dates loaded</option>
+	</select>
+	<select id="tag_selector">
+	  <option value="">No tags loaded</option>
+	</select>
+    </form>
+
+    <div id="links">No links loaded.</div>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+body, div, td, li {
+    font: 12px arial;
+}
+#thumbs {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#thumbs li {
+    float: left;
+    width: 23%;
+    height: auto;
+    padding: 0;
+    margin: 0.5ex;
+}
+img.thumb {
+    width: 100%;
+    height: auto;
+}
